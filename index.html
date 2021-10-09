@@ -7,6 +7,8 @@
   <title>Document</title>
   <!--Icons-->
   <link rel="stylesheet" href="assets/style.css">
+  <!--SwiperJs-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   <!--Style-->
   <link rel="stylesheet" href="style.css">
   <!--Fonts-->
@@ -98,56 +100,65 @@
     <div class="divider-1"></div>
     <!--Testimonials-->
     <section class="section" id="testimonials">
-      <div class="container grid">
+      <div class="container">
         <header>
           <h2 class="title">Depoimentos de quem já passou por aqui</h2>
         </header>
-        <div class="testimonials">
-          <div class="testimonial">
-            <blockquote>
-              <p>
-                <span>&ldquo;</span>
-                Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.   
-              </p>
-              <cite>
-                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Foto da Wanessa Souza">
-                <p>Wanessa Souza</p>
-              </cite>
-            </blockquote>
+        <div class="testimonials swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São profissionais incríveis e qualificados.   
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Foto da Wanessa Souza">
+                  <p>Wanessa Souza</p>
+                </cite>
+              </blockquote>
+            </div>
+  
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora, debitis excepturi aperiam, nesciunt recusandae, non omnis velit voluptas quibusdam numquam necessitatibus ad totam. 
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/94.jpg" alt="Foto da Raquel Silva">
+                  <p>Raquel Silva</p>
+                </cite>
+              </blockquote>
+            </div>
+  
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati, facere totam corrupti quos alias amet animi nisi maiores fugit, accusantium, dignissimos dolor exercitationem quas laboriosam.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="Foto da Denise Souza">
+                  <p>Denise Souza</p>
+                </cite>
+              </blockquote>
+            </div>
           </div>
 
-          <div class="testimonial">
-            <blockquote>
-              <p>
-                <span>&ldquo;</span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora, debitis excepturi aperiam, nesciunt recusandae, non omnis velit voluptas quibusdam numquam necessitatibus ad totam tempore earum hic veritatis iure quae. 
-              </p>
-              <cite>
-                <img src="https://randomuser.me/api/portraits/women/94.jpg" alt="Foto da Raquel Silva">
-                <p>Raquel Silva</p>
-              </cite>
-            </blockquote>
-          </div>
-
-          <div class="testimonial">
-            <blockquote>
-              <p>
-                <span>&ldquo;</span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis obcaecati, facere totam corrupti quos alias amet animi nisi maiores fugit, accusantium, dignissimos dolor exercitationem quas laboriosam aperiam architecto quisquam iste. 
-              </p>
-              <cite>
-                <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="Foto da Denise Souza">
-                <p>Denise Souza</p>
-              </cite>
-            </blockquote>
-          </div>
+          <div class="swiper-pagination"></div>
+          
         </div>
       </div>
     </section>
+    <div class="divider-2"></div>
     <!--Contact-->
     <section id="contact"></section>
   </main>
   <footer></footer>
+  <!--SwiperJs-->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!--NormmalSript-->
   <script src="main.js"></script>
 </body>
 </html>
