@@ -3,4 +3,4 @@ Projeto de um site para um salão de beleza
 
 # Projeto levantado pela rocketseat
 
-# Desenvolvido po Kelvin Ronald
+# Desenvolvido por Kelvin Ronald
